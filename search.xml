@@ -43,6 +43,21 @@
   <entry>
     <title>c++ build工具</title>
     <url>/2022/03/12/c-build%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="preprocessor-complier-linker-系统库"><a href="#preprocessor-complier-linker-系统库" class="headerlink" title="preprocessor + complier  + linker + 系统库"></a>preprocessor + complier  + linker + 系统库</h2><figure class="highlight txt"><table><tr><td class="code"><pre><span class="line">可以写helloworld</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">通过系统库使用别人的库</span><br><span class="line">`````</span><br><span class="line"></span><br><span class="line">`````txt</span><br><span class="line">无法分享自己的库</span><br><span class="line">`````</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>g++ hello.cpp</p>
+<pre><code>
+## makfile
+
+
+## cmake
+
+
+## xmake
+
+
+</code></pre>
+]]></content>
   </entry>
 </search>
