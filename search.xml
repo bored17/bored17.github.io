@@ -43,7 +43,7 @@
   <entry>
     <title>c++ build工具</title>
     <url>/2022/03/12/c-build%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<h2 id="important"><a href="#important" class="headerlink" title="important"></a>important</h2><p>简单使用<br>方便的使用别人的代码，分享代码<br>隔离</p>
+    <content><![CDATA[<h2 id="important"><a href="#important" class="headerlink" title="important"></a>important</h2><p>简单使用<br>方便的使用别人的代码，分享代码<br>隔离<br>构建同时生产文档</p>
 <h2 id="processer-complier-linker-pkg-config-system"><a href="#processer-complier-linker-pkg-config-system" class="headerlink" title="processer + complier + linker  + pkg-config + system"></a>processer + complier + linker  + pkg-config + system</h2><p>几把</p>
 <h2 id="makefile"><a href="#makefile" class="headerlink" title="makefile"></a>makefile</h2><p>几把</p>
 <h2 id="cmake"><a href="#cmake" class="headerlink" title="cmake"></a>cmake</h2><p>几把</p>
