@@ -46,8 +46,22 @@
     <content><![CDATA[<h2 id="important"><a href="#important" class="headerlink" title="important"></a>important</h2><p>简单使用<br>方便的使用别人的代码，分享代码<br>隔离<br>构建同时生产文档</p>
 <h2 id="processer-complier-linker-pkg-config-system"><a href="#processer-complier-linker-pkg-config-system" class="headerlink" title="processer + complier + linker  + pkg-config + system"></a>processer + complier + linker  + pkg-config + system</h2><p>几把</p>
 <h2 id="makefile"><a href="#makefile" class="headerlink" title="makefile"></a>makefile</h2><p>几把</p>
-<h2 id="cmake"><a href="#cmake" class="headerlink" title="cmake"></a>cmake</h2><p>A step:寻找拥有install(export)config.cmake 的cmake项目在github等网站上。<br>B step (external目录)使用external_add下载2类型的项目到指定位置 A step的项目到不侵入系统库的位置,(root目录)使用exteranl_add 指定src项目 pcakge_DIR位置() 使用findpackage CONFIG找到依赖</p>
+<h2 id="cmake"><a href="#cmake" class="headerlink" title="cmake"></a>cmake</h2><p>A step:寻找拥有install(export)config.cmake 的cmake项目在github等网站上。<br>B step:(external目录)使用external_add下载2类型的项目到指定位置 A step的项目到不侵入系统库的位置,(root目录)使用exteranl_add 指定src项目 pcakge_DIR位置() 使用findpackage CONFIG找到依赖</p>
 <h2 id="xmake"><a href="#xmake" class="headerlink" title="xmake"></a>xmake</h2><p>听说很好用</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>grep 命令</title>
+    <url>/2022/03/14/grep-%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>一个软件，配置文件很多行，版本多，与网上资料行数一般不一致，用肉眼不好找。通过grep字段找到。</p>
+<h2 id="grep-使用"><a href="#grep-使用" class="headerlink" title="grep 使用"></a>grep 使用</h2><pre><code class="bash">shiyanlou:~/ $ sudo grep -n requirepass /etc/redis/redis.conf
+212:# If the master is password protected (using the &quot;requirepass&quot; configuration
+396:requirepass &quot;test123&quot;
+</code></pre>
+<p>找到了，舒服的一笔</p>
+]]></content>
+      <tags>
+        <tag>linux cli</tag>
+      </tags>
   </entry>
 </search>
