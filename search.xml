@@ -64,4 +64,16 @@
         <tag>linux cli</tag>
       </tags>
   </entry>
+  <entry>
+    <title>c++库符号冲突</title>
+    <url>/2022/03/20/c-%E5%BA%93%E7%AC%A6%E5%8F%B7%E5%86%B2%E7%AA%81/</url>
+    <content><![CDATA[<h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>c++继承c的sdk,使用别人的库,使用链接器，会有符号冲突。因为sdk不知道什么原因没很好的解决问题，只能靠规范了。</p>
+<h2 id="linker"><a href="#linker" class="headerlink" title="linker"></a>linker</h2><p>不同的linker，不同的实现。但是都没有根本解决冲突。根据linker的不同，库函数调用顺序，链接库顺序都会影响link，造成各种情况。</p>
+<h2 id="规范"><a href="#规范" class="headerlink" title="规范"></a>规范</h2><p>当这个世界混乱的时候，只能依靠规范了。<br>库必须全局隐藏所有符号，只暴露用户使用的符号。</p>
+<figure class="highlight txt"><table><tr><td class="code"><pre><span class="line">linux gnu sdk 下</span><br><span class="line">complier flag  -fvisibility=hidden -fvisibility-inlines-hidden </span><br><span class="line">源文件中使用  __attribute__((visibility(&quot;default&quot;))) 对需要的符号导出</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p><a href="https://www.jianshu.com/p/fb5a5550f858">https://www.jianshu.com/p/fb5a5550f858</a><br>CMake Cookbook (Writing an Installer(Generating export headers)))</p>
+]]></content>
+  </entry>
 </search>
