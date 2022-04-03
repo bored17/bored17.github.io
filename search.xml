@@ -76,4 +76,14 @@
 <h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p><a href="https://www.jianshu.com/p/fb5a5550f858">https://www.jianshu.com/p/fb5a5550f858</a><br>CMake Cookbook (Writing an Installer(Generating export headers)))</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>line feed &amp; carriage return</title>
+    <url>/2022/04/04/line-feed-carriage-return/</url>
+    <content><![CDATA[<h4 id="description"><a href="#description" class="headerlink" title="description"></a>description</h4><p>看书提到 linux LF(line feed) \n 与windows CRLF(Carriage Return + line feed) \r\n， 这是怎么来的呢？ 竟然与打字机有关.</p>
+<h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><p><a href="https://www.youtube.com/watch?v=iiybwznbgBw">https://www.youtube.com/watch?v=iiybwznbgBw</a><br><a href="https://stackoverflow.com/questions/12747722/what-is-the-difference-between-a-line-feed-and-a-carriage-return">https://stackoverflow.com/questions/12747722/what-is-the-difference-between-a-line-feed-and-a-carriage-return</a></p>
+]]></content>
+      <tags>
+        <tag>linux &amp; windows</tag>
+      </tags>
+  </entry>
 </search>
