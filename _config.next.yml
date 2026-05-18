@@ -1,0 +1,48 @@
+# ===============================================================
+# NexT Theme Configuration (Alternate Theme Config)
+# ===============================================================
+
+# Scheme
+scheme: Muse
+
+# Menu
+menu:
+  home: / || fa fa-home
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+# Enable / Disable menu icons / item badges
+menu_settings:
+  icons: true
+  badges: false
+
+# Sidebar
+sidebar:
+  position: left
+
+# Avatar
+avatar:
+  rounded: false
+  rotated: false
+
+# Google Analytics
+google_analytics:
+  tracking_id: UA-222754533-1
+  only_pageview: false
+
+
+
+# Social links
+social:
+  GitHub: https://github.com/bored17 || fab fa-github
+
+# Footer
+footer:
+  since: 2022
+
+# Creative Commons
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
