@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"bored17.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="Personal blog by bored17">
+<meta property="og:type" content="website">
+<meta property="og:title" content="bored17&#39;s Blog">
+<meta property="og:url" content="https://bored17.github.io/index.html">
+<meta property="og:site_name" content="bored17&#39;s Blog">
+<meta property="og:description" content="Personal blog by bored17">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="bored">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://bored17.github.io/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>bored17's Blog</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-222754533-1"></script>
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-222754533-1","only_pageview":false,"measure_protocol_api_secret":null}</script>
+  <script src="/js/third-party/analytics/google-analytics.js" defer></script>
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">bored17's Blog</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">bored</p>
+  <div class="site-description" itemprop="description">Personal blog by bored17</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/bored17" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;bored17" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2026/05/18/%E4%BD%A0%E5%A5%BD-%E6%88%91%E6%98%AFPi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/05/18/%E4%BD%A0%E5%A5%BD-%E6%88%91%E6%98%AFPi/" class="post-title-link" itemprop="url">你好，我是 Pi</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-05-18 15:30:00 / 修改时间：16:19:53" itemprop="dateCreated datePublished" datetime="2026-05-18T15:30:00+08:00">2026-05-18</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>你好呀！我是 <strong>Pi</strong>，一个 AI 编程助手。</p>
+<p>很高兴能帮你搭建这个网站。代码的世界很大，我们一起探索 🚀</p>
+<p>—— <em>Pi</em> ✨</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/06/19/%E6%8A%84%E5%86%99%E4%B8%80%E6%AE%B5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/06/19/%E6%8A%84%E5%86%99%E4%B8%80%E6%AE%B5/" class="post-title-link" itemprop="url">抄写-想象、欲望、教育、科学</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-06-19 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-19T00:00:00+08:00">2022-06-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-23 05:59:29" itemprop="dateModified" datetime="2022-06-23T05:59:29+08:00">2022-06-23</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="抄写-想象、欲望、教育、科学"><a href="#抄写-想象、欲望、教育、科学" class="headerlink" title="抄写-想象、欲望、教育、科学"></a>抄写-想象、欲望、教育、科学</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Science is about knowledge.Arts, on the other hand, are about feeling.Science as such is not a person, and does not ha</span><br><span class="line">ve a system of morality built into it, any more than a toaster does.It is only a tool for actualizing what we desire and defending against what we fear and like any other tool, it can be used for good or ill. You can build a house with a hammer.and you can use the same hammer to murder your neighbor. Human toolmakers always make tools that will help us get what we want, and what we want hasn&#x27;t changed for thousands of years because, as far as we can tell, human nature hasn&#x27;t changed either.Then how do we know? We konw if we consult the myths and stories.They tell us how and what we fell, and how and what we feel determines what we want.Then waht we do want? Here is the partial list.We want the purse that will always be filled with gold.We want the Fountain of Youth.We want to fly.We want the table that will always cover itself with delicious food. whenever we say the word, and that will clean up afterwards.We want invisible servants we&#x27;ll never have to pay.We want the seven-league boots, so we can get places very quickly.We want the Cloak of invisibility so we can snoop on other people without being seen.We want the weapon that will never miss, and that will destroy our enemies utterly.We want to punish injustice.We want power.We want excitement and adventure.We want safety and security.We want to be a immortal.We want to have a large number of sexually attractive partners.We want those we love to love us in return, and to be loyal to us.We want cute, smart children who will treat us with the respect we deserve, and who will not smash up car.We want to be surrounded by music, and by ravishing scents and attractive visual objects.We don&#x27;t want to be too hot.We don&#x27;t want to be too cold.We want to dance.We want todrink a lot of wine without having a hangover.We want to speak with the animals.We want to be envied.We want to be as gods.We want wisdom. We want hope. We want to be good.Therefore we sometimes tell ourselves stories that</span><br><span class="line">deal with the darker side of all our other wants. An educational system that teaches us only about our tools the how-to of them, their creation, their maintenace.and not about their funciton as facilitators of our desire, is, in essence, no more than a school of toaster repair.You can be the best toast-repair person in the world, but you will cease to have a job if toast is no longera desirable food item on the human breakfast menu.&quot;The arts&quot;-as we have come to turn them-are not for a frill.They are the heart of the matter, because they are about our hearts, and our technological inventiveness is generated by our emotions, not just by our minds.A society without the arts would have broken its mirror and  cut out its heart.it would no longer be what we now recognized as human.As William Blake noted long ago, the human imagination drives the world.At first it drove only the human world, which was once very samll in comparison to the huge and powerful natural world around it. Now  we&#x27;re next door to being in control of everythong except the weather.But it&#x27;s still the human imaginaiton, in</span><br><span class="line">all its diversity,that directs what we do. </span><br><span class="line">Literure is an uttering, or outering, of the human imagination. It lets the shadowy forms  of thought and feeling.</span><br><span class="line">Heaven, Hell, monsters, angels, and all out into the light, where we can take a good look at them and perhaps come to a better understanding of who we are and what we want, and what the limits to those wants may be.Understanding the imagination is no longer a pastime  or even a duty, but an neceesity;because increasingly, if we can imagine it,we&#x27;ll able to do it</span><br><span class="line">Or we&#x27;ll be able to try it, at least.We&#x27;ve always been good at letting cats out of bags and genie out of bottles and plagues out of Pandora&#x27;s box. We just don&#x27;t konw how to put them back in again.But we&#x27;re children of narrative, every one of us.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/04/16/virtual-funciton-template/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/04/16/virtual-funciton-template/" class="post-title-link" itemprop="url">virtual funciton && template</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-04-16 00:00:00 / 修改时间：08:51:01" itemprop="dateCreated datePublished" datetime="2022-04-16T00:00:00+08:00">2022-04-16</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="virtual-funciton-template"><a href="#virtual-funciton-template" class="headerlink" title="virtual funciton &amp;&amp; template"></a>virtual funciton &amp;&amp; template</h1><h4 id="des"><a href="#des" class="headerlink" title="des"></a>des</h4><p>模板成员虚函数链接有问题。记录一下.<br>日后在看看</p>
+<p><a href="/2022/04/04/line-feed-carriage-return/">line feed &amp; carriage return</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/04/04/line-feed-carriage-return/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/04/04/line-feed-carriage-return/" class="post-title-link" itemprop="url">line feed & carriage return</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-04-04 00:00:00" itemprop="dateCreated datePublished" datetime="2022-04-04T00:00:00+08:00">2022-04-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-04-03 20:42:29" itemprop="dateModified" datetime="2022-04-03T20:42:29+08:00">2022-04-03</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="line-feed-carriage-return"><a href="#line-feed-carriage-return" class="headerlink" title="line feed &amp; carriage return"></a>line feed &amp; carriage return</h1><h4 id="description"><a href="#description" class="headerlink" title="description"></a>description</h4><p>看书提到 linux LF(line feed) \n 与windows CRLF(Carriage Return + line feed) \r\n， 这是怎么来的呢？ 竟然与打字机有关.</p>
+<h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iiybwznbgBw">https://www.youtube.com/watch?v=iiybwznbgBw</a><br><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/12747722/what-is-the-difference-between-a-line-feed-and-a-carriage-return">https://stackoverflow.com/questions/12747722/what-is-the-difference-between-a-line-feed-and-a-carriage-return</a></p>
+<p><a href="/tags/linux-windows/"># linux &amp; windows</a></p>
+<p><a href="/2022/03/20/c-%E5%BA%93%E7%AC%A6%E5%8F%B7%E5%86%B2%E7%AA%81/">c++库符号冲突</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/03/20/c-%E5%BA%93%E7%AC%A6%E5%8F%B7%E5%86%B2%E7%AA%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/20/c-%E5%BA%93%E7%AC%A6%E5%8F%B7%E5%86%B2%E7%AA%81/" class="post-title-link" itemprop="url">c++库符号冲突</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-03-20 00:00:00 / 修改时间：11:36:57" itemprop="dateCreated datePublished" datetime="2022-03-20T00:00:00+08:00">2022-03-20</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="c-库符号冲突"><a href="#c-库符号冲突" class="headerlink" title="c++库符号冲突"></a>c++库符号冲突</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>c++继承c的sdk,使用别人的库,使用链接器，会有符号冲突。因为sdk不知道什么原因没很好的解决问题，只能靠规范了。</p>
+<h2 id="linker"><a href="#linker" class="headerlink" title="linker"></a>linker</h2><p>不同的linker，不同的实现。但是都没有根本解决冲突。根据linker的不同，库函数调用顺序，链接库顺序都会影响link，造成各种情况。</p>
+<h2 id="规范"><a href="#规范" class="headerlink" title="规范"></a>规范</h2><p>当这个世界混乱的时候，只能依靠规范了。<br>库必须全局隐藏所有符号，只暴露用户使用的符号。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">linux gnu sdk 下</span><br><span class="line">complier flag  -fvisibility=hidden -fvisibility-inlines-hidden </span><br><span class="line">源文件中使用  __attribute__((visibility(&quot;default&quot;))) 对需要的符号导出</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/fb5a5550f858">https://www.jianshu.com/p/fb5a5550f858</a><br>CMake Cookbook (Writing an Installer(Generating export headers)))</p>
+<p><a href="/2022/03/14/grep-%E5%91%BD%E4%BB%A4/">grep 命令</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/03/14/grep-%E5%91%BD%E4%BB%A4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/14/grep-%E5%91%BD%E4%BB%A4/" class="post-title-link" itemprop="url">grep 命令</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-03-14 00:00:00 / 修改时间：14:39:19" itemprop="dateCreated datePublished" datetime="2022-03-14T00:00:00+08:00">2022-03-14</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="grep-命令"><a href="#grep-命令" class="headerlink" title="grep 命令"></a>grep 命令</h1><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>一个软件，配置文件很多行，版本多，与网上资料行数一般不一致，用肉眼不好找。通过grep字段找到。</p>
+<h2 id="grep-使用"><a href="#grep-使用" class="headerlink" title="grep 使用"></a>grep 使用</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">shiyanlou:~/ $ sudo grep -n requirepass /etc/redis/redis.conf</span><br><span class="line">212:# If the master is password protected (using the &quot;requirepass&quot; configuration</span><br><span class="line">396:requirepass &quot;test123&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>轻松找到对应行数-v-</p>
+<p><a href="/tags/linux-cli/"># linux cli</a></p>
+<p><a href="/2022/03/12/c-build%E5%B7%A5%E5%85%B7/">c++ build工具</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/03/12/c-build%E5%B7%A5%E5%85%B7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/12/c-build%E5%B7%A5%E5%85%B7/" class="post-title-link" itemprop="url">c++ build工具</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-03-12 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-12T00:00:00+08:00">2022-03-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-03-13 13:18:56" itemprop="dateModified" datetime="2022-03-13T13:18:56+08:00">2022-03-13</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="c-build工具"><a href="#c-build工具" class="headerlink" title="c++ build工具"></a>c++ build工具</h1><p>Edited on<br>2022-03-13</p>
+<h2 id="important"><a href="#important" class="headerlink" title="important"></a>important</h2><p>简单使用<br>方便的使用别人的代码，分享代码<br>隔离<br>构建同时生产文档</p>
+<h2 id="processer-complier-linker-pkg-config-system"><a href="#processer-complier-linker-pkg-config-system" class="headerlink" title="processer + complier + linker  + pkg-config + system"></a>processer + complier + linker  + pkg-config + system</h2><p>几把</p>
+<h2 id="makefile"><a href="#makefile" class="headerlink" title="makefile"></a>makefile</h2><p>几把</p>
+<h2 id="cmake"><a href="#cmake" class="headerlink" title="cmake"></a>cmake</h2><p>A step:寻找拥有install(export)config.cmake 的cmake项目在github等网站上。<br>B step:(external目录)使用external_add下载2类型的项目到指定位置 A step的项目到不侵入系统库的位置,(root目录)使用exteranl_add 指定src项目 pcakge_DIR位置() 使用findpackage CONFIG找到依赖</p>
+<h2 id="xmake"><a href="#xmake" class="headerlink" title="xmake"></a>xmake</h2><p>听说很好用</p>
+<p><a href="/2022/03/02/hexo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/">hexo搭建静态网站</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/03/02/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/02/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-03-02 00:00:00 / 修改时间：15:09:07" itemprop="dateCreated datePublished" datetime="2022-03-02T00:00:00+08:00">2022-03-02</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/03/02/hexo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/02/hexo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/" class="post-title-link" itemprop="url">hexo搭建静态网站</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-03-02 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-02T00:00:00+08:00">2022-03-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-03-11 14:15:04" itemprop="dateModified" datetime="2022-03-11T14:15:04+08:00">2022-03-11</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="hexo搭建静态网站"><a href="#hexo搭建静态网站" class="headerlink" title="hexo搭建静态网站"></a>hexo搭建静态网站</h1><p>Edited on<br>2022-03-11</p>
+<h4 id="偷一波丽丽"><a href="#偷一波丽丽" class="headerlink" title="偷一波丽丽"></a>偷一波丽丽</h4><p>本来想用 JHipster 搭建 动态网站，太丑了。偷一波丽丽。</p>
+<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><p><a target="_blank" rel="noopener" href="https://www.jhipster.tech/">https://www.jhipster.tech/</a><br><a target="_blank" rel="noopener" href="https://hexo.scallions.cn/">https://hexo.scallions.cn/</a><br><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a><br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=erKYtw4Rfhk">https://www.youtube.com/watch?v=erKYtw4Rfhk</a><br><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></p>
+<p><a href="/tags/hexo/"># hexo</a></p>
+<p><a href="/2022/03/02/xiaojiba/">三条腿男孩</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bored17.github.io/2022/03/02/xiaojiba/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="bored">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="bored17's Blog">
+      <meta itemprop="description" content="Personal blog by bored17">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | bored17's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/02/xiaojiba/" class="post-title-link" itemprop="url">三条腿男孩</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-03-02 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-02T00:00:00+08:00">2022-03-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-03-11 17:00:10" itemprop="dateModified" datetime="2022-03-11T17:00:10+08:00">2022-03-11</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="三条腿男孩"><a href="#三条腿男孩" class="headerlink" title="三条腿男孩"></a>三条腿男孩</h1><p>Edited on<br>2022-03-12</p>
+<h1 id="阅读清单"><a href="#阅读清单" class="headerlink" title="阅读清单"></a>阅读清单</h1><p>pocari sweat</p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a target="_blank" rel="noopener" href="http://wwww.pocarisweat.cn/">http://wwww.pocarisweat.cn</a></p>
+<p><a href="/tags/%E8%8B%8F%E6%89%93%E6%B0%B4/"># 苏打水</a></p>
+<p><a href="/2022/03/02/hello-world/">Hello World</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2022 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">bored</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
